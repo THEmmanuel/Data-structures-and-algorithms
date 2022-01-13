@@ -1,4 +1,4 @@
-const inputArray = [11, 5, 15, 25, 88]
+const inputArray = [11, 5, 15, 25, 88];
 
 const linearSearch = (array, value) => {
     //First sort the array, since linear search works with ordered arrays;
