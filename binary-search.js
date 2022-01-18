@@ -3,13 +3,11 @@ const inputArray = [11, 5, 15, 25, 88]
 const binarySearch = (array, value) => {
     array.sort((a, b) => a - b)
     //First sort the array...
-
     //Establish the starting point for the search.
     //In this context it's the first index in the array. array[0]
     lowerIndex = 0;
     //The upper index is the last value in the array.
     upperIndex = array.length - 1;
-
     //Loop checking the midpoint between the upper index and lower index
     while (lowerIndex <= upperIndex) {
         //Find the midpoint between the upper and lower indices.
@@ -27,7 +25,7 @@ const binarySearch = (array, value) => {
             return midValue;
         }
     }
-    //Return the array if the the value is not found.
+    //Return the array if the value is not found.
     return array
 };
 

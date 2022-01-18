@@ -13,7 +13,8 @@ const bubbleSort = array => {
     while (!isSorted) {
         isSorted = true
         //start sorting.
-        // for loop that compares each pair of values at adjacent indices. Swap if the are not in order.
+        // for loop that compares each pair of values at adjacent indices.
+        // Swap if the values are not in order.
         for (let index = 0; index < unsortedIndex; index++) {
             if (array[index] > array[index + 1]) {
                 //Change isSorted to false. To indicate value swapping.
